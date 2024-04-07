@@ -1,16 +1,11 @@
-import React from 'react';
-import Header from './Header.jsx'
-import Footer from './Footer.jsx';
-import Food from './Food.jsx';
+import ColorPicker from './ColorPicker.jsx';
 
-function App() {
-  return(
-    <>
-      <Header></Header>
-      <Food></Food>
-      <Footer></Footer>    //fragement
-    </>
-  );
+function App(){
+    return(
+        <>
+            <ColorPicker></ColorPicker>
+        </>
+    );
 }
 
-export default App
+export default App;
